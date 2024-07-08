@@ -33,8 +33,8 @@
   - `targetSdkVersion`: 30
 - **Permissions**: Requests internet permission (`android.permission.INTERNET`).
 - **Activities**:
-  - `com.classy.survivegame.Activity_Game`: Likely contains the main gameplay logic and user interface, set to portrait orientation.
-  - `com.classy.survivegame.Activity_Menu`: Entry point of the application (launcher activity), also set to portrait orientation.
+  - `com.example.apk_decompile_project.Activity_Game`: Likely contains the main gameplay logic and user interface, set to portrait orientation.
+  - `com.example.apk_decompile_project.Activity_Menu`: Entry point of the application (launcher activity), also set to portrait orientation.
 
 ### Next Steps
 
