@@ -80,11 +80,11 @@ iArr[i] = Integer.parseInt(String.valueOf(id.charAt(i))) % 4;
 ##### Fix URL
 Change:
 ```java
-<string name="url">https://pastebin.com/raw/‌‌‌T67TVJG9</string>
+<string name="url">https://pastebin.com/raw/ZWNJZWNJZWNJT67TVJG9</string>
 ```
 To:
 ```java
-<string name="url">https://pastebin.com/raw/ZWNJZWNJZWNJT67TVJG9</string>
+<string name="url">https://pastebin.com/raw/‌‌‌T67TVJG9</string>
 ```
 ### Testing and Validation
 - Ran the application on an emulator or device to test the changes.
