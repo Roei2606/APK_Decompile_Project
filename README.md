@@ -75,8 +75,9 @@ To:
 ```java
 iArr[i] = Integer.parseInt(String.valueOf(id.charAt(i))) % 4;
 ```
+#### Strings.xml
 
-##### Update Integer Parsing
+##### Fix URL
 Change:
 ```java
 <string name="url">https://pastebin.com/raw/‌‌‌T67TVJG9</string>
