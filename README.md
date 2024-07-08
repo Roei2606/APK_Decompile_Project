@@ -59,3 +59,8 @@ Toast.makeText(this, "Survived in " + state, 1).show();
 } else {
 Toast.makeText(this, "You Failed ", 1).show();
 
+To:
+```java
+Toast.makeText(this, "Survived in " + state, Toast.LENGTH_SHORT).show();
+} else {
+Toast.makeText(this, "You Failed ", Toast.LENGTH_SHORT).show();
