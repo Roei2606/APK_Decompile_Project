@@ -59,9 +59,60 @@ Toast.makeText(this, "Survived in " + state, 1).show();
 } else {
 Toast.makeText(this, "You Failed ", 1).show();
 ```
-
 To:
 ```java
 Toast.makeText(this, "Survived in " + state, Toast.LENGTH_SHORT).show();
 } else {
 Toast.makeText(this, "You Failed ", Toast.LENGTH_SHORT).show();
+```
+
+##### Update Integer Parsing
+Change:
+```java
+iArr[i] = Integer.valueOf(String.valueOf(id.charAt(i))).intValue() % 4;
+```
+To:
+```java
+iArr[i] = Integer.parseInt(String.valueOf(id.charAt(i))) % 4;
+```
+
+##### Update Integer Parsing
+Change:
+```java
+<string name="url">https://pastebin.com/raw/‌‌‌T67TVJG9</string>
+```
+To:
+```java
+<string name="url">https://pastebin.com/raw/T67TVJG9</string>
+```
+### Testing and Validation
+- Ran the application on an emulator or device to test the changes.
+- Ensured the game logic works as expected and the correct toast message is displayed upon successful completion.
+
+### Example ID and Steps
+
+#### Enter a Valid ID
+Example ID: `123456789`
+
+#### Derived Steps
+The steps array will be derived as follows:
+- Character at index 0 ('1') -> 1 % 4 = 1 (Right)
+- Character at index 1 ('2') -> 2 % 4 = 2 (Up)
+- Character at index 2 ('3') -> 3 % 4 = 3 (Down)
+- Character at index 3 ('4') -> 4 % 4 = 0 (Left)
+- Character at index 4 ('5') -> 5 % 4 = 1 (Right)
+- Character at index 5 ('6') -> 6 % 4 = 2 (Up)
+- Character at index 6 ('7') -> 7 % 4 = 3 (Down)
+- Character at index 7 ('8') -> 8 % 4 = 0 (Left)
+- Character at index 8 ('9') -> 9 % 4 = 1 (Right)
+
+#### Follow the Steps
+- Press the buttons in the correct order as derived from the ID.
+
+### Video Demonstration
+
+
+https://github.com/Roei2606/APK_Decompile_Project_/assets/159260552/28b3c088-cb93-4f2e-ad8e-3810346fdb04
+
+
+
