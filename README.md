@@ -58,7 +58,7 @@ Change:
 Toast.makeText(this, "Survived in " + state, 1).show();
 } else {
 Toast.makeText(this, "You Failed ", 1).show();
-```java
+```
 
 To:
 ```java
